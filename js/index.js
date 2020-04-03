@@ -45,8 +45,8 @@ $(function() {
     })
 
     function play() {
-        $pic.eq(index).fadeIn(1000).siblings('li').fadeOut(1000);
-        $bg.eq(index).fadeIn(1000).siblings("li").fadeOut(1000);
+        $pic.eq(index).fadeIn(2000).siblings('li').fadeOut(2000);
+        $bg.eq(index).fadeIn(2000).siblings("li").fadeOut(2000);
         $lib.eq(index).addClass("on").siblings("li").removeClass("on");
     }
 
